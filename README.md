@@ -38,14 +38,22 @@ Use pd.get_dummies() to encode categorical variables
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 Continue using the jupter notebook where you’ve already performed the preprocessing steps from Step 1.
+
 Create a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras.
+
 Create the first hidden layer and choose an appropriate activation function.
 If necessary, add a second hidden layer with an appropriate activation function.
+
 Create an output layer with an appropriate activation function.
+
 Check the structure of the model.
+
 Compile and train the model.
+
 Create a callback that saves the model's weights every 5 epochs.
+
 Evaluate the model using the test data to determine the loss and accuracy.
+
 Save and export your results to an HDF5 file, and name it AlphabetSoupCharity.h5.
 
 ### Step 3: Optimize the Model
